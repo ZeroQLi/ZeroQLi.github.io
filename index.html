@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -8,38 +8,25 @@
   <link rel="stylesheet" type="text/css" href="reset.css">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
+<style>
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.child{
+  text-align: center;
+  font-family: cursive;
+  font-size: 75px;
+}
+</style>
 <body>
-  <header>
-    <ul class="links">
-      <li>
-        <a href="index.html">Home</a>
-        <a href="hall of fame.html">Hall of Fame</a>
-        <a href="rps.html">Rock Paper Scissors</a>
-        <a href="contact.html">Contact</a>
-      </li>
-    </ul>
-  </header>
-
-  <br>
-  <!--start main page -->
-
-  <h1>ZeroQL</h1>
-
-  <br>
-
-  <h2>Hacker, but not what you think</h2>
-
-  <br>
-  <section>
-    <h2>about Me</h2>
-    <br>
-    <div id="about me">
-      <p>Hi, Im zeroql, a white hat security researcher in the middle east, with knowledge programing in
-        <em>Golang, Python and Java</em>. im also an avid esports fan too,
-      </p>
-    </div>
-  </section>
+<div class="main">
+  <img alt="a duck" class="image" src="assets/duck.png">
+  <h1 class="child">Hello There</h1>
+  <h2 class="child"> You have arrived too early. <br> check back later to witness greatness </h2>
+</div>
 </body>
 
 </html>
